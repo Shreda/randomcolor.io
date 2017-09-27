@@ -8,16 +8,17 @@ html {
 }
 
 section {
-    min-height: 90vh;
-    padding-top: 30px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
-section:nth-of-type(3) {
+
+.footer {
     background: black;
     text-align: left; 
-    min-height: 100vh;
-}
-    
+    min-height: 90vh;
+    color: white;
+}    
 
 .randomColorSection {
     position: relative;
@@ -38,9 +39,6 @@ section:nth-of-type(3) {
     transform: translate(-50%, -50%);
 }
 
-.btn-link {
-    color: black;
-}
 
 i {
     margin: 10px;
@@ -52,18 +50,11 @@ i {
 }
 
 
-.container {
-    padding-top: 10%;
-}
-
 .col-md-4 {
     text-align: left;
     
 }
 
-.onBlack {
-    color: white;
-}
 
 hr {
     max-width: 400px;
